@@ -1,10 +1,13 @@
 ﻿@page
 @model IndexModel
 @{
-    ViewData["Title"] = "Home page";
+    ViewData["Title"] = "Home";
 }
 
 <head>
+    <!-- Add in the stylesheet for social media icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+
     <link rel="stylesheet" href="~/css/index.css" />
 </head>
 
@@ -33,17 +36,26 @@
                 <div class="col" style="padding: 0px 20px 0px 20px">
                     <h3 style="color: white;">About Me!</h3>
                     <p>
-                        My name is Dillon Smithson,  I’m 22 years old, and I currently reside in Baton Rouge, Louisiana. Welcome to my Portfolio website, 
-                        where my entire professional life is on display!                                                
+                        My name is Dillon Smithson,  I’m 22 years old, and I currently reside in Baton Rouge, Louisiana. Welcome to my Portfolio website,
+                        where my entire professional life is on display!
                     </p>
                     <p>
                         I graduated in December of 2021 from the University of Louisiana at Lafayette with a Bachelors in Computer Science, a minor in Mathematics,
                         and a concentration in Video Game Development. I particularly have interests in C#, web development and data analysis!
                     </p>
                     <p>
-                        In my free time, I tend to spend my time playing video games. I love to stream on Twitch every once in a while. And if I’m not gaming, 
+                        In my free time, I tend to spend my time playing video games. I love to stream on Twitch every once in a while. And if I’m not gaming,
                         I’ll typically be working on one of the many projects you can find on this site!
                     </p>
+
+                    <!-- Social Media Icons -->
+                    <ul class="social-menu">
+                        <li><a href="https://github.com"> <i class="fa fa-github"></i></a></li>
+                        <li><a href="https://twitter.com"> <i class="fa fa-twitter"></i></a></li>
+                        <li><a href="https://instagram.com"> <i class="fa fa-instagram"></i></a></li>
+                        <li><a href="https://linkedin.com"> <i class="fa fa-linkedin"></i></a></li>
+                        <li><a href="https://youtube.com"> <i class="fa fa-youtube"></i></a></li>
+                    </ul>
                 </div>
             </div>
         </div>

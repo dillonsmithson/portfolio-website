@@ -32,3 +32,62 @@ p{
         border-color: white;
     }
 }
+
+.social-menu{
+    display: flex;
+    list-style-type: none;
+    place-content: left;
+    margin: 30px 0px 0px -42px;
+}
+
+.social-menu i{
+    color: #fff;
+    width: 40px;
+    height: 40px; 
+    border-radius: 50%; 
+    font-size: 25px;
+    margin-right: 10px;
+    transition: all 0.2s ease-in-out;
+    display: flex;
+    justify-content: center;
+}
+
+.social-menu i:before{
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+}
+
+.social-menu a{
+    text-decoration: none;
+}
+
+.social-menu i:hover{
+    opacity: .7;
+    border-radius: 0;
+}
+
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+
+.fa-linkedin {
+    background: #007bb5;
+    color: white;
+}
+
+.fa-youtube {
+    background: #bb0000;
+    color: white;
+}
+
+.fa-instagram {
+    background: #125688;
+    color: white;
+}
+
+.fa-github{
+    background: #000000;
+    color: white;
+}
